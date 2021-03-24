@@ -1,0 +1,328 @@
+﻿ *{          
+      /*margin:0px;
+      padding:0px;*/   
+}        
+
+body {       
+         background-color:black;        
+         padding:0px;
+         margin:0px;      
+     }
+div{
+	margin-top:0px;
+	margin-bottom:0px;	
+}
+p {
+	margin-top:0px;
+	margin-bottom:0px;
+	font-family:calibri;
+}
+h1{
+    margin:0px;
+    padding:0px;
+	
+}
+h2{
+            padding:0px;
+            margin:0px;
+}
+dt{
+	font-family:calibri;
+    font-size:large;
+    font-weight:bold;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+dd{
+	font-family:calibri;	
+}
+dl{
+    padding-bottom:0px;
+}
+
+.SiteHeader {
+	width:100%;
+	min-height:100px;            
+	background: linear-gradient(black,#1C1C1C, black);
+	margin:0px;
+    padding:0px;
+    
+}
+
+@media screen and (min-width:1150px){
+	#headerLogo15th{
+		position:absolute;
+		width:auto;
+        height:100px;
+        left:20%;
+		float:left;			
+	}	
+	#headerLogoAlt15th{
+		position:absolute;
+        width:auto;
+        height:100px;
+        right:20%;
+		float:right;			
+	}    
+	.headerText {
+        color:white;
+        text-align:center;
+		font-size:1vw;
+        display:block;
+		margin: 0 auto;
+		width:60%;
+        height:10%;            
+	}
+    
+}
+		
+@media screen and (max-width:1150px){
+	#headerLogo15th{
+		display:block;
+		margin: 0 auto;
+        width:auto;
+        height:100px;
+            
+	}
+		
+	#headerLogoAlt15th{
+		width:0px;
+		height:0px;
+	}
+    .headerText {
+        font-size:0px;
+            
+    }
+    .joinTable table{
+    border:3px dashed red;
+    margin:auto;
+    margin-top:1%;  
+    border-spacing:15px;   
+    display:none;  
+
+    }
+    .joinTable td {   
+    border-radius:5px 5px;
+    text-align:center;
+    min-width:0px;   
+
+    }
+    .joinTable a{
+            text-align:center;
+			border:2px solid #e8e8e8;
+			font-size:48px;
+			border-radius:5px;
+			text-decoration:none;
+			padding:5px 15px 5px 15px;
+			font-family:impact;
+			background-color:#4d0000;
+			color:#e8e8e8;	
+            font-size:150%;
+
+    }
+.joinTable a:hover{
+    background-color:green;
+   }
+}
+@media only screen and (max-width : 720px){
+	.organization-main {
+	padding-left:5px;
+	padding-right:5px;	
+	}
+	.organization-main > p {
+	text-align:center;
+	padding-bottom:10px;
+	}
+    .homeLogosDiv {
+		margin-top:100px;
+	}
+	.homeCircle{
+		width:20vw;
+		height:20vw;
+	}
+	.homeCircle:hover{
+		width:25vw;
+		height:25vw;
+	}
+}
+
+.menu{
+            border-top:1px solid gray;		
+			overflow:hidden;
+            padding:0px;
+            margin:0px;		
+     }
+.menu ul{
+            font-style:normal; 
+			font-family: Trebuchet MS; 
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+            background-color: #1C1C1C; 
+			list-style-type:none; 
+			margin:0; 
+			padding: 0; 
+			overflow: hidden;
+			
+}
+.menu  li{float: left;  text-align: center;}
+.menu  li a {display: block; 
+padding: 14px 16px; 
+text-decoration: none; 
+color:white;
+text-align:center;
+}
+.menu  li a:hover {background-color: #444;}
+.menu  li:last-child{border-right:none;}
+.menu .active {background-color: #444;}
+.Content {
+    background-color:rgba(1, 1, 5, 0.83);
+    color:ghostwhite;      
+    width:75%;   
+    min-height:1000px;
+    margin:auto;   
+    padding-left:4%;
+    padding-right:4%;	
+    border:1px solid transparent;
+    
+}
+
+.joinTable table{
+    border:3px dashed red;
+    margin:auto;
+    margin-top:1%;  
+    border-spacing:15px;     
+}
+
+.joinTable td {
+   
+    border-radius:5px 5px;
+    text-align:center;
+    min-width:0px;
+   
+    
+}
+
+.joinTable a{
+            text-align:center;
+			border:2px solid #e8e8e8;
+			font-size:48px;
+			border-radius:5px;
+			text-decoration:none;
+			padding:5px 15px 5px 15px;
+			font-family:impact;
+			background-color:#4d0000;
+			color:#e8e8e8;	
+            font-size:150%;	
+}
+.joinTable a:hover{
+    background-color:gray;
+}
+
+.organization-main {
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.organization-main > p {
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.organization-main > p  > a{
+	color:white;	
+}
+.organization-main > p  > a:hover{
+	color:grey;	
+}
+.HomePageBackground{
+			width:100%;			
+			background: linear-gradient(to bottom, rgba(28, 28, 28, 0) 0%, rgba(28, 28, 28, 1.0) 50%);
+			z-index:-99;
+		}
+.fullscreen-bg {
+           position:relative;           
+		   width:100%;		   
+		   overflow:hidden;
+		   z-index:-100;
+		}
+.fullScreen-bg-img{
+    position:relative;           
+    width:100%;    	   
+	/*overflow:hidden;*/
+	/*z-index:-100;*/
+    background:url(images/backgroundImage1.jpg) no-repeat center fixed;
+    background-size:cover;
+}
+.HomePageJoinDiv{
+			text-align:center;
+			position:relative;
+			bottom:500px;
+		}
+.HomePageJoinDiv h2{
+			margin-bottom:20px;
+			font-family:EightDaysAWeek;
+			font-size:48px;
+			color:gray;
+		}
+
+.joinUsButton{
+			text-align:center;
+			border:2px solid #e8e8e8;
+			font-size:48px;
+			border-radius:5px;
+			text-decoration:none;
+			padding:5px 15px 5px 15px;
+			font-family:SevenDeadlySins;
+			background-color:#4d0000;
+			color:#e8e8e8;			
+		}
+.joinUsButton:hover{
+			background-color:grey;
+		}
+		
+@font-face{
+			font-family:EightDaysAWeek;
+			src:url("fonts/EightDaysAWeek.ttf");
+		}
+@font-face{
+			font-family:SevenDeadlySins;
+			src:url("fonts/Sevendeadlysins.ttf");
+		}
+@font-face{
+font-family:WhiteArmy;
+src:url("fonts/WhiteArmy.ttf");
+}
+.homeLogosDiv{
+			display:flex;
+			flex-flow:row wrap;			
+			width:50%;
+			position:absolute;
+            margin-left:25%;
+			top:1000px;            
+			justify-content:space-around;            
+		}
+.homeCircle{
+			border-radius:50%;
+			width:150px;
+			height:150px;				
+		}
+.homeCircle:hover{
+	width:160px;
+	height:160px;
+}
+.googleDoc{
+	width:80%;
+	margin-left:10%;
+	height:1000px;
+	
+}
+footer{
+  background-color: #1C1C1C;
+  color:white;
+  margin:0px;
+  padding:5px;
+}
+footer p{
+
+}
+ 
