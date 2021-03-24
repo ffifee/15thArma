@@ -1,2 +1,2 @@
 # 15thArma
-This was a prototype project.
+This was a prototype for a static website project.
